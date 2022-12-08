@@ -40,7 +40,7 @@ There are 3 Unity scenes for corresponding parking situations. The `Master` scen
 <br/>
 
 ## Training
-Now, if you run following commands and hit the 'Play' button in the Unity Editor, you can train the agent with Reinforcement Learning.
+you can train the agent with Reinforcement Learning by running commands below and hitting the 'Play' button in the Unity Editor.
 
 * Default command
     ```
