@@ -1,4 +1,4 @@
-# Autonomous Parking Simulation (Updating README.md)
+# Autonomous Parking Simulation
 This project is about an autonomous parking simulation program with Unity ML-Agent.
 
 [Program Download Link](https://drive.google.com/file/d/1nP-ikZiklXb_1zPpwrG-GXffE2ixzpMr/view?usp=sharing)
