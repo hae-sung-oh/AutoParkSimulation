@@ -1,4 +1,4 @@
-# Autonomous Parking Simulation
+# Autonomous Parking Simulation (Updating README.md)
 This project is about an autonomous parking simulation program with Unity ML-Agent.
 
 [Program Download Link](https://drive.google.com/file/d/1nP-ikZiklXb_1zPpwrG-GXffE2ixzpMr/view?usp=sharing)
@@ -7,9 +7,9 @@ This project is about an autonomous parking simulation program with Unity ML-Age
 
 ## Installation
 * Clone the git repository
-```
-git clone https://github.com/hae-sung-oh/AutoParkSimulation.git
-```
+    ```
+    git clone https://github.com/hae-sung-oh/AutoParkSimulation.git
+    ```
 
 * Open the project with Unity Hub
 
@@ -42,6 +42,8 @@ There are 3 Unity scenes for corresponding parking situations. The `Master` scen
 ## Training
 You can train the agent with Reinforcement Learning by running commands below and hitting the 'Play' button in the Unity Editor.
 
+Note: Don't forget to activate the virtual environment that made in the installation part.
+
 * Default command
     ```
     mlagents-learn trainer_config.yaml
@@ -70,6 +72,9 @@ After the training, you can test the result with the following methods.
 
 * Check created Neural Network Model (Behavior Parameter)
 
+If you put the NN file created by the training into the agent object, the agent will show the trained behavior.
 
 * Heuristic Mode (Manual Control)
+
+If you change the control mode of the agent to 'Heuristic', you can control the agent manually with W(acceleration), A(steer left), S(back acceleration), D(steer right), and Spacebar(brake) keys.
 
